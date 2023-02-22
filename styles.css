@@ -1,1 +1,17 @@
 /* your code */
+.head{
+	background-color:lightblue;
+}
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+tr:nth-child(even) {  
+  background-color: lightgray;  
+}  
+th{
+	text-align:left;
+}
+th,td{
+	padding:5px;
+}
